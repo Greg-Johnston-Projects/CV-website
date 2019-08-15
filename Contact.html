@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body style="background-color:lightgreen;">
+    <table align="center" cellspacing="10px" cellpadding="20px">
+      <tr>
+      <thead>
+        <th><a href="index.html"</a>Home</th>
+        <th><a href="Project.html"</a>Projects</th>
+        <th><a href="Contact.html"</a>Contact</th>
+      </thead>
+      </tr>
+    </table>
+
+    <h1 align="center">Contact Me</h1>
+    <hr style="border-style:dotted; none none none" >
+<table>
+<tr>
+<td>
+  Email Adress:
+</td>
+<td>
+  Gregjohnston91@gmail.com
+</td>
+</tr>
+<tr>
+  <td>
+    Phone Number:
+  </td>
+  <td>
+    07411393944
+  </td>
+</tr>
+</table>
+<hr />
+<br />
+
+<h2>Please fill in the below form to contact me.</h2>
+<br />
+
+<form class="" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="get">
+  <fieldset>
+    <legend>Personal Information</legend>
+
+  <label for="name">Enter Your Name:</label>
+  <input type="text" name="name" id="name" required>
+  <br />
+  <label for="email">Email Address:</label>
+  <input type="email" name="email" id="email" required>
+  <br />
+  <label for="number">Enter your contact number</label>
+  <input type="number" name="number" id="number" required>
+  <br />
+  </fieldset>
+  <fieldset>
+    <legend>Booking Information</legend>
+  <label for="contact-method">Best way to contact you?</label>
+         <select id="contact-method">
+           <optgroup label="Method">
+             <option>Default</option>
+             <option>Telephone</option>
+             <option>Email</option>
+           </optgroup>
+         </select>
+<br />
+  <label for="meeting-time">When would you like to book for?</label>
+  <input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2018-06-12T19:30"
+       min="2019-07-25T00:00" max="2022-12-31T00:00">
+<br>
+</fieldset>
+<fieldset>
+  <legend>Futher Information</legend>
+  <label for="story">Futher information:</label>
+  <br />
+  <textarea id="story" name="story" row="5" col="33"></textarea>
+  <br />
+  </fieldset>
+  <p>Accept terms & Conditions</p>
+  <label for"Yes">Yes</label>
+  <input type="radio" name="terms" id="Yes" value="Yes">
+  <lable for="No">No</lable>
+  <input type="radio" name="terms" id="No" value="No">
+  <br />
+  <br />
+  <input type="Submit">
+</form>
+
+
+
+
+
+
+  </body>
+</html>
